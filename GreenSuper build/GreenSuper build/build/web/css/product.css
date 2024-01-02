@@ -1,0 +1,129 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 28, 2023, 4:13:03 PM
+    Author     : Mervin Roy
+*/
+
+.product .productbox-container {
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+    padding-right: 50px;
+    padding-left: 60px;
+}
+
+.product .productbox-container .product-box{
+    width: 20rem;
+    height: 30rem;
+    padding: 3rem 0;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    outline-offset: -1rem;
+    text-align: center;
+}
+.product .productbox-container .product-box:hover{
+    box-shadow: 1px ;
+    color: #ffffff;
+}
+.product .productbox-container .product-box img{
+    margin: 1rem 0;
+    height: 15rem;
+}
+.product .productbox-container .product-box h3{
+    font-size: 1.2rem;
+    color: var(--black);
+    Line-height: 1rem;
+}
+
+.product .productbox-container .product-box p{
+    font-size: 1.2rem;
+    color: #66cc00;
+    Line-height: 1.8rem;
+    padding: 1rem 0;
+}
+
+.product .productbox-container .product-box a{
+    border: .2rem solid;
+    border-color: #e9ece9;
+    margin-top: .3rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    color: var(--black);
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+}
+
+.product .productbox-container .product-box a:hover{
+    background: #66cc00;
+    color: #fff;
+}
+
+.beverages .bevbox-container {
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem; 
+    padding-right: 50px;
+    padding-left: 60px;
+}
+
+.beverages .bevbox-container .bev-box{
+    width: 20rem;
+    height: 30rem;
+    padding: 3rem 0;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    outline-offset: -1rem;
+    text-align: center;
+}
+
+.beverages .bevbox-container .bev-box:hover{
+    box-shadow: 1px ;
+    color: #ffffff;
+}
+
+.beverages .bevbox-container .bev-box img{
+    margin: 1rem 0;
+    height: 15rem;   
+}
+
+.beverages .bevbox-container .bev-box h3{
+   font-size: 1.2rem;
+   color: var(--black);
+   Line-height: 1rem;
+}
+
+.beverages .bevbox-container .bev-box p{
+   font-size: 1.2rem;
+   color: #66cc00;
+   Line-height: 1.8rem;
+   padding: 1rem 0;
+}
+
+.beverages .bevbox-container .bev-box a{
+    border: .2rem solid;
+    border-color: #e9ece9;
+    margin-top: .3rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    color: var(--black);
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+}
+
+.beverages .bevbox-container .bev-box a:hover{
+    background: #66cc00;
+    color: #fff;
+}
